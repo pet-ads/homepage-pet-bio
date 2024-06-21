@@ -152,8 +152,8 @@
     height: auto;
   }
   .aberto{
-    top: 13%;
-    height: 78vh;
+    top: auto;
+    height: 40vh;
   }
   .card--texto__expandido{
     line-height: 140%;
@@ -183,7 +183,7 @@
   }
 
   .scrowSpace {
-    height: 80%;
+    height: 60%;
     width: 100%;
     overflow: hidden;
     overflow-y: scroll;

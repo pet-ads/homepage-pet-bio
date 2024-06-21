@@ -53,7 +53,7 @@
   @media (max-width: 450px) {
     :root {
       --swiper-navigation-size: 20px;
-      --swiper-pagination-bottom: 7vw;
+      --swiper-pagination-bottom: 2vw;
       --swiper-pagination-top: auto;
     }
   
