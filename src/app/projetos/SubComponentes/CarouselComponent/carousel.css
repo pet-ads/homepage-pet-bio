@@ -1,49 +1,69 @@
-.container-carousel{
-    width:100%;
+.container-carousel {
+    width: 100%;
     max-width: 350px;
     max-height: 200px;
     margin: 0 auto;
-
-}
-.carousel-item{
-    width: 100%;
-}
-.carousel-item img {
-    object-fit: cover; 
-    width: 100%; 
-    height: 100%; 
   }
-.swiper-button-next:after, .swiper-button-prev:after {
-    color:  var(--cor-detalhes-verde);
-}
-:root {
-    --swiper-pagination-color: var( --cor-verde__medio);
+  
+  .carousel-item {
+    width: 100%;
+    height: 200px; /* Altura fixa para os slides */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-button-next:after, .swiper-button-prev:after {
+    color: var(--cor-detalhes-verde);
+  }
+  
+  :root {
+    --swiper-pagination-color: var(--cor-verde__medio);
     --swiper-pagination-bullet-inactive-color: var(--cor-detalhes-verde);
     --swiper-pagination-bullet-inactive-opacity: 0.5;
-}
-
-@media (max-width: 850px) {
+  }
+  
+  @media (max-width: 850px) {
     .container-carousel {
-        max-width: 200px;
+      max-width: 200px;
+      max-height: 150px; /* Ajuste a altura conforme necessário */
     }
+  
+    .carousel-item {
+      height: 150px; /* Ajuste a altura conforme necessário */
+    }
+  
     :root {
-        --swiper-navigation-size: 20px; 
-        --swiper-pagination-bottom: 3vw; /* Define um valor padrão, pode ser ajustado conforme necessário */
-        --swiper-pagination-top: auto;
+      --swiper-navigation-size: 20px;
+      --swiper-pagination-bottom: 3vw;
+      --swiper-pagination-top: auto;
     }
-      
-      .swiper-pagination-fraction, 
-      .swiper-pagination-custom, 
-      .swiper-horizontal > .swiper-pagination-bullets, 
-      .swiper-pagination-bullets.swiper-pagination-horizontal {
-        bottom: var(--swiper-pagination-bottom);
-      }
-}
-
-@media (max-width: 450px) {
+  
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: var(--swiper-pagination-bottom);
+    }
+  }
+  
+  @media (max-width: 450px) {
     :root {
-        --swiper-navigation-size: 20px; 
-        --swiper-pagination-bottom: 7vw; /* Define um valor padrão, pode ser ajustado conforme necessário */
-        --swiper-pagination-top: auto;
+      --swiper-navigation-size: 20px;
+      --swiper-pagination-bottom: 7vw;
+      --swiper-pagination-top: auto;
     }
-}
+  
+    .container-carousel {
+      max-width: 150px;
+      max-height: 100px; /* Ajuste a altura conforme necessário */
+    }
+  
+    .carousel-item {
+      height: 100px; /* Ajuste a altura conforme necessário */
+    }
+  }
+  
