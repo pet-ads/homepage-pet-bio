@@ -10,8 +10,9 @@
   top: 20%;
   z-index: 2;
   width: auto;
-  left: 300px;
-  right: 300px;
+  max-width: 550px;
+  left: auto;
+  right: auto;
   padding: 20px;
   padding-bottom: 80px;
   position: fixed;
@@ -167,9 +168,11 @@
   }
 
   .aberto {
-    top: 10%;
-    left: 10%;
-    right: 10%;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    top: auto;
     z-index: 2;
     width: auto;
     height: 40vh;
