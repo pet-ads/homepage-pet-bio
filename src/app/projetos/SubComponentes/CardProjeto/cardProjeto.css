@@ -142,7 +142,7 @@
 
 @media (max-width: 1370px){
   .aberto{
-    top:25%
+    top:25%;
   }
 }
 
@@ -176,6 +176,7 @@
     padding: 20px;
     padding-top: 40px;
     position: fixed;
+    overflow: hidden;
   }
 
   .scrowSpace {
