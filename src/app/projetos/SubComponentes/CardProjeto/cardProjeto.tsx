@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import ClosedCard from "../CardComponents/ClosedCard";
 import OpennedCard from "../CardComponents/OpennedCard";
-import { IProject } from "../../../../types/ProjectTypes"
+import { IProject } from "../../../../types/ProjectTypes";
 
 
 export default function CardProjeto({ titulo, tipo, descricao, expandido, link, status, images }: IProject) {  
