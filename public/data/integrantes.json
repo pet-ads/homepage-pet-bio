@@ -139,6 +139,14 @@
       "ano": "2023",
       "tipo": "Voluntário",
       "lattes": "http://lattes.cnpq.br/7863690234572291"
+    },
+    {
+      "id": "18",
+      "nome": "fulano de tal",
+      "foto": "./images/fotos_alunos/kaiqueAlcantara.jpg",
+      "ano": "2023",
+      "tipo": "Voluntário",
+      "lattes": "http://lattes.cnpq.br/7863690234572291"
     }
   ],
 
